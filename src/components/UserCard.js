@@ -1,6 +1,8 @@
 // UserCard.js
 import { Link } from "react-router-dom";
 
+
+
 function UserCard({user}) {
   return (
     <article>
@@ -9,5 +11,7 @@ function UserCard({user}) {
     </article>
   );
 }
+
+
 
 export default UserCard;

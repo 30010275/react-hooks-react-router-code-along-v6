@@ -5,6 +5,8 @@ function ErrorPage() {
   const error = useRouteError();
   console.error(error);
 
+  
+  
   return (
     <>
       <header>
@@ -16,5 +18,6 @@ function ErrorPage() {
     </>
   );
 }
+
 
 export default ErrorPage;
